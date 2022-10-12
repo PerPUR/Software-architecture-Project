@@ -30,4 +30,7 @@ public class ProjectMain {
 
          write.writeThings(readlist,fileWrite);
     }
+    public ArrayList<String> getLineSorted(){
+        return this.lineSorted;
+    }
 }
