@@ -26,11 +26,9 @@ public class ProjectMain {
 
         LineSort lineSort = new LineSort(wordsorted);
         lineSort.sortLines();
+        //打印结果
         lineSort.PrintSortedLines();
-
-         write.writeThings(readlist,fileWrite);
+        //写入结果
+        write.writeThings(lineSort.getLineSorted(),fileWrite);
     }
-    public ArrayList<String> getLineSorted(){
-        return this.lineSorted;
-    }
-}
+ }
