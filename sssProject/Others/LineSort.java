@@ -34,4 +34,7 @@ public class LineSort {
             System.out.println(str);
         }
     }
+    public ArrayList<String> getLineSorted(){
+        return this.lineSorted;
+    }
 }
