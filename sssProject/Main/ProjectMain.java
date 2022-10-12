@@ -30,5 +30,6 @@ public class ProjectMain {
         lineSort.PrintSortedLines();
         //写入结果
         write.writeThings(lineSort.getLineSorted(),fileWrite);
+        
     }
  }
